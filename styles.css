@@ -2,65 +2,33 @@ body {
     background-color: #404040;
 }
 
-ul li:last-child { float: left; }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-  
-ul li { 
-  list-style:none;
-  margin:10px;
-  float: right; 
+ul a:hover {
+     color: #fff !important; 
 }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #000;
-  }
 
 
   .center {
-    margin: auto;
-    margin-top: 5%;
-    margin-left: 30%;
-    width: 60%;
-    padding: 10px;
+    width: 100%;
+    background-color: pink;
   }
 
   .center span{
     font-size: 24pt;
     color: #fff;
-    margin-top: 8%;
-    margin-left: 2%;
-    position: absolute;
-    display: inline;
+    margin:0 auto;
   }
 
   .image-cropper {
     width: 250px;
     height: 250px;
-    position: relative;
     overflow: hidden;
     border-radius: 50%;
-    display: inline-block;
+    vertical-align: middle;
 }
 img {
-    display: inline;
-    margin: 0 auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    vertical-align: middle;
 }
 
 .fa {
