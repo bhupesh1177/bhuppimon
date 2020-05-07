@@ -13,12 +13,12 @@ body {
         width: 150px;
         height: 150px;
         overflow: hidden;
-        image-orientation: from-image;
+        image-orientation: 90deg;
     }
     img {
         vertical-align: middle;
         width: 150;
-        image-orientation: from-image;
+        image-orientation: 90deg;
     }
     .responsive {
         width: 100%;
