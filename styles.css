@@ -20,6 +20,21 @@ body {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .image-cropper {
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+    img {
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        vertical-align: middle;
+        width: 125;
+    }
+}
 
   .image-cropper {
     width: 250px;
@@ -32,6 +47,7 @@ img {
     margin-left: 0 auto;
     margin-right: 0 auto;
     vertical-align: middle;
+    width: 250;
 }
 
 .fa {
