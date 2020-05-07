@@ -13,15 +13,17 @@ body {
         width: 150px;
         height: 150px;
         overflow: hidden;
+        image-orientation: from-image;
     }
     img {
         vertical-align: middle;
         width: 150;
+        image-orientation: from-image;
     }
     .responsive {
         width: 100%;
         height: auto;
-      }
+    }
 }
 
 @media screen and (min-width: 601px) {
@@ -31,6 +33,7 @@ body {
     height: 250px;
     overflow: hidden;
     border-radius: 50%;
+    image-orientation: from-image;
 }
 .responsive {
     width: 100%;
@@ -43,6 +46,7 @@ img {
     margin-right: 0 auto;
     vertical-align: middle;
     width: 250;
+    image-orientation: from-image;
 }
 }
 .fa {
