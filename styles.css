@@ -8,22 +8,10 @@ body {
     }
 }
 
-@include media-breakpoint-up(md) {
-    html {
-        font-size: 1.4rem;
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    html {
-        font-size: 1.6rem;
-    }
-}
-
 @media only screen and (max-width: 600px) {
     .image-cropper {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
         overflow: hidden;
         border-radius: 50%;
         vertical-align: middle;
@@ -32,9 +20,11 @@ body {
         margin-left: 0 auto;
         margin-right: 0 auto;
         vertical-align: middle;
-        width: 0;
+        width: 100;
     }
 }
+
+@media screen and (min-width: 601px) {
 
   .image-cropper {
     width: 250px;
@@ -49,7 +39,7 @@ img {
     vertical-align: middle;
     width: 250;
 }
-
+}
 .fa {
     padding: 20px;
     font-size: 30px;
