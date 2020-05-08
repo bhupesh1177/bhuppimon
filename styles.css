@@ -9,22 +9,26 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .image-cropper {
-        width: 150px;
-        height: 150px;
-        overflow: hidden;
-        border-radius: 50%;
-    }
-    img {
-      margin-left: 0 auto;
-      margin-right: 0 auto;  
-        vertical-align: middle;
-        width: 150;
-    }
-    .responsive {
-        width: 100%;
-        height: auto;
-    }
+  .image-cropper {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    image-orientation: from-image;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  
+img {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    vertical-align: middle;
+    width: 200;
+    image-orientation: from-image;
+}
 }
 
 @media screen and (min-width: 601px) {
